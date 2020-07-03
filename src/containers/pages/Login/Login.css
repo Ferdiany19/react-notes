@@ -1,0 +1,126 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: #1f1c44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container{
+    margin-top: 2em;
+    background: white;
+    width: 500px;
+    padding: 5em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .signup{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.8em;
+  }
+  
+  .google{
+    background: #5b86e6;
+    color: white;
+    padding: 0.6em 4em;
+    margin: 1em auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .fa{
+    font-size: 1.5rem;
+    padding: 0.2em;
+    color: white;
+    margin-right: 2rem;
+    background: #E65B7C;
+    border-radius: 100%;
+  }
+  
+  .or{
+    color: #949495;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  .or::before, .or::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    left: -25%;
+    right: 0;
+    width: 20%;
+    height: 2px;
+    background: #949495;
+  }
+  
+  .or::after{
+    bottom: 8px;
+    left: 105%;
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 2em auto;
+  }
+  
+  label{
+    font-size: 1.125rem;
+  }
+  
+  input{
+    outline: none;
+    box-sizing: border-box;
+    padding: 0.5em;
+    font-size: 1.15rem;
+    margin: 0.4em 0 0.7em 0;
+    background: #FFFFFF;
+    border: 1px solid #D9DCED;
+    border-radius: 5px;
+    color: #949495;
+    width: 100%;
+  }
+  
+  .btn{
+    border: none;
+    padding: 0.8em;
+    background: #E65B7C;
+    color: white;
+    font-size: 1.125rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .disable {
+    background: gray;
+    border: 1px solid gray;
+  }
+
+  .disable:hover {
+    cursor: not-allowed;
+  }
+  
+  .already{
+    font-size: 1.1rem;
+  }
+  
+  .login{
+    text-decoration: none;
+    color: #5b86e6;
+  }
